@@ -11,6 +11,12 @@ You will find this is far easier than the opposite task of using CSS to cram you
 *********************************************************************/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 
+
+/**************************************
+  GOOGLE FONTS
+****************************************/
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 /*********************************************************************
   YOUR MOBILE/BASE STYLES GO HERE
 *********************************************************************/
@@ -21,6 +27,38 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F8FFFF;
+}
+
+.container {
+    max-width: 800px;
+    margin   : 0 auto;
+    padding  : 5px;
+}
+
+H1 {
+    color: #2176FF;
+}
+
+H2 {
+  color: #33A1FD;
+}
+
+H3 {
+  color: #F79824;
+}
+
+p {
+  color: #31393C;
+}
+
+.inter-element {
+  margin: auto;
+  width: 95%;
+  padding: 16px 20px 8px;
+  border: 1px solid #FDCA40;
+  border-radius: 5px;
 }
 
 /*********************************************************************
