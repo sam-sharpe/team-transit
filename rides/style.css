@@ -15,7 +15,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
 /**************************************
   GOOGLE FONTS
 ****************************************/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 /*********************************************************************
   YOUR MOBILE/BASE STYLES GO HERE
@@ -29,28 +29,6 @@ html, body {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     background-color: #F8FFFF;
-    line-height: 1.5;
-
-}
-
-.headline-box {
-  background: #31393C;
-  width: 100%;
-  margin: 0 auto;
-  padding: 5%;
-/**  border-radius: 5px; **/
-  border-bottom: 2px solid #FDCA40;
-}
-
-.headline {
-  color: #FDCA40;
-  font-size: 32px;
-  margin-bottom: 32px;
-}
-
-.byline {
-  color: #FDCA40;
-  font-size: 16px;
 }
 
 .container {
@@ -82,45 +60,6 @@ p {
   border: 2px solid #FDCA40;
   border-radius: 5px;
 }
-
-.social a {
-  border: 2px solid #1da1f2;
-  padding: 3px;
-  background: #1da1f2;
-  color: white;
-  border-radius: 3px;
-  display: inline-block;
-  margin: 2px auto;
-  width: 100px;
-  text-align: center;
-}
-
-.social a:hover {
-  color: #1da1f2;
-  background: #f7f7f7;
-  border: 2px solid #1da1f2;
-  padding: 3px;
-  margin: 2px auto;
-}
-
-.footer {
-  border-top: 2px solid #FDCA40;
-  border-radius: 5px;
-  background: #31393C;
-  width: 100%;
-  margin: auto;
-  align-content: center;
-}
-
-.social.footer {
-  text-align: center;
-  color: #FDCA40;
-  font-weight: bolder;
-  padding-bottom: 20px;
-  padding-top: 20px;
-
-}
-
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE

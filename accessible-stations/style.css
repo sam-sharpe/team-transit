@@ -6,12 +6,8 @@ Most of your styles get written like standard CSS, but for your mobile presentat
 Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
 You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
 */
-/*********************************************************************
- LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
-*********************************************************************/
+/* THIS LINE LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
-
-
 /**************************************
   GOOGLE FONTS
 ****************************************/
@@ -30,7 +26,6 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     background-color: #F8FFFF;
     line-height: 1.5;
-
 }
 
 .headline-box {
@@ -81,6 +76,64 @@ p {
   padding: 16px 20px 8px;
   border: 2px solid #FDCA40;
   border-radius: 5px;
+  background-color: #DFE6E7;
+}
+
+#Accessible {
+    display  : flex;
+    flex-flow: row wrap;
+}
+
+.station {
+    padding   : 5px;
+    float     : left;
+    min-height: 185px;
+    text-align: center;
+    flex      : 1 0 34%;
+    display   : none;
+}
+
+.station.active {
+    display: block;
+}
+
+.end,
+.start {
+    display: none;
+}
+
+.end.active,
+.start.active {
+    display: block;
+}
+
+#result {
+    display: none;
+}
+
+#result img {
+    display  : none;
+    max-width: 200px;
+}
+
+#result.accessible,
+#result.non-accessible {
+    display: block;
+}
+
+#result.accessible img.accessible,
+#result.non-accessible img.non-accessible {
+    display: block;
+}
+
+img {
+    display: block;
+    width  : 50%;
+}
+
+select {
+    display: block;
+    width  : 100%;
 }
 
 .social a {
@@ -105,7 +158,7 @@ p {
 
 .footer {
   border-top: 2px solid #FDCA40;
-  border-radius: 5px;
+
   background: #31393C;
   width: 100%;
   margin: auto;
@@ -116,24 +169,22 @@ p {
   text-align: center;
   color: #FDCA40;
   font-weight: bolder;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 
 }
 
-
-/*********************************************************************
-  YOUR TABLET/DESKTOP STYLES GO HERE
-*********************************************************************/
+/* Tablet/Desktop overrides */
 @media(min-width: 681px) {
-    /* Any adjustments for tablets and larger go here.
-    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-}
+    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+    .item {
+        flex-basis: 50%;
+    }
 
-/*********************************************************************
-  YOUR DESKTOP-ONLY STYLES GO HERE
-*********************************************************************/
+    select {
+        width: 33%;
+    }
+}
 @media(min-width: 729px) {
-    /* Any adjustments for desktop and larger go here.
-    Note these styles will be applied to anything 729px or larger -- so desktop */
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
 }
