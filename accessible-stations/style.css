@@ -33,19 +33,19 @@ html, body {
   width: 100%;
   margin: 0 auto;
   padding: 5%;
-/**  border-radius: 5px; **/
-  border-bottom: 2px solid #FDCA40;
+  border-radius: 5px;
+  border-bottom: 4px solid #FDCA40;
 }
 
 .headline {
-  color: #FDCA40;
-  font-size: 32px;
+  color: #F8FFFF;
+  font-size: 42px;
   margin-bottom: 32px;
 }
 
 .byline {
-  color: #FDCA40;
-  font-size: 16px;
+  color: #F8FFFF;
+  font-size: 18px;
 }
 
 .container {
@@ -76,7 +76,7 @@ p {
   padding: 16px 20px 8px;
   border: 2px solid #FDCA40;
   border-radius: 5px;
-  background-color: #DFE6E7;
+/**  background-color: #DFE6E7; **/
 }
 
 #Accessible {
@@ -158,7 +158,7 @@ select {
 
 .footer {
   border-top: 2px solid #FDCA40;
-
+  border-radius: 5px;
   background: #31393C;
   width: 100%;
   margin: auto;
