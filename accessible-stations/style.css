@@ -25,27 +25,40 @@ html, body {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     background-color: #F8FFFF;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .headline-box {
   background: #31393C;
   width: 100%;
   margin: 0 auto;
-  padding: 5%;
-  border-radius: 5px;
+  padding: 20px;
+
   border-bottom: 4px solid #FDCA40;
 }
 
 .headline {
-  color: #F8FFFF;
+  max-width: 800px;
+  margin   : 0 auto;
+  color: #FDCA40;
   font-size: 42px;
-  margin-bottom: 32px;
+  text-align: left;
 }
 
 .byline {
+  max-width: 800px;
+  margin   : 0 auto;
   color: #F8FFFF;
   font-size: 18px;
+  text-align: left;
+
+}
+
+.date {
+  max-width: 800px;
+  margin   : 0 auto;
+  color: #F8FFFF;
+  font-size: 16px;
 }
 
 .container {
@@ -67,12 +80,12 @@ H3 {
 }
 
 p {
-  color: #31393C;
+  color: #2B3235;
 }
 
 .inter-element {
   margin: auto;
-  width: 95%;
+  width: 100%;
   padding: 16px 20px 8px;
   border: 2px solid #FDCA40;
   border-radius: 5px;
@@ -136,9 +149,9 @@ select {
     width  : 100%;
 }
 
-.social a {
+.follow a {
   border: 2px solid #1da1f2;
-  padding: 3px;
+  padding: 2px;
   background: #1da1f2;
   color: white;
   border-radius: 3px;
@@ -148,11 +161,11 @@ select {
   text-align: center;
 }
 
-.social a:hover {
+.follow a:hover {
   color: #1da1f2;
   background: #f7f7f7;
   border: 2px solid #1da1f2;
-  padding: 3px;
+  padding: 2px;
   margin: 2px auto;
 }
 
@@ -162,15 +175,15 @@ select {
   background: #31393C;
   width: 100%;
   margin: auto;
+  padding: 5px;
   align-content: center;
 }
 
-.social.footer {
+.follow {
   text-align: center;
   color: #FDCA40;
   font-weight: bolder;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 10px;
 
 }
 
