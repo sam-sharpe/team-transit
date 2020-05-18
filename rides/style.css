@@ -13,7 +13,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
 /**************************************
   GOOGLE FONTS
 ****************************************/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 /*********************************************************************
   YOUR MOBILE/BASE STYLES GO HERE
@@ -25,12 +25,13 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: #F8FFFF;
     line-height: 2;
 }
 
 .headline-box {
+    font-family: 'Open Sans', sans-serif;
     background: #31393C;
     width: 100%;
     margin: 0 auto;
@@ -65,18 +66,6 @@ html, body {
     max-width: 800px;
     margin: 0 auto;
     padding: 5px;
-}
-
-H1 {
-    color: #2176FF;
-}
-
-H2 {
-    color: #33A1FD;
-}
-
-H3 {
-    color: #F79824;
 }
 
 p {
@@ -123,6 +112,7 @@ p {
 }
 
 .follow {
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: #F79824;
     font-weight: bolder;
