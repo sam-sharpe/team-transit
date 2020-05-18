@@ -25,40 +25,43 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #F8FFFF;
+    font-family: 'Lato', sans-serif;
+    background-color: #2B3235;
     line-height: 2;
 }
 
 .headline-box {
-    background: #31393C;
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     margin: 0 auto;
-    padding: 20px;
-    border-bottom: 4px solid #FDCA40;
+    padding: 2em;
+    border-radius: 5px;
+    background-color: #31393C;
+    line-height: 1.5;
+    border-bottom: 1px solid #90C6FF;
 }
 
 .headline {
     max-width: 800px;
     margin: 0 auto;
-    color: #FDCA40;
-    font-size: 42px;
+    color: #90C6FF;
+    font-size: 4em;
     text-align: left;
 }
 
-.byline {
+.group {
     max-width: 800px;
     margin: 0 auto;
     color: #F8FFFF;
-    font-size: 18px;
     text-align: left;
 }
 
-.date {
+.deck {
+    margin: 1.5 auto;
     max-width: 800px;
-    margin: 0 auto;
     color: #F8FFFF;
-    font-size: 16px;
+    font-size: 1.2em;
+    text-align: left;
 }
 
 .container {
@@ -67,66 +70,58 @@ html, body {
     padding: 5px;
 }
 
-H1 {
-    color: #2176FF;
-}
-
-H2 {
-    color: #33A1FD;
-}
-
-H3 {
-    color: #F79824;
-}
-
 p {
     color: #2B3235;
 }
 
-.inter-element {
-    margin: auto;
+.title {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.byline {
+    font-size: 1em;
+}
+
+.project.rides {
+    color: #F79824;
+}
+
+.project.access {
+    color: #FDCA40;
+}
+
+.project.citi {
+    color: #33A1FD;
+}
+
+.project {
+    margin: 1.5em auto;
     width: 100%;
-    padding: 16px 20px 8px;
-    border: 2px solid #FDCA40;
+    padding: 16px 20px 20px;
+    border: 2px solid;
     border-radius: 5px;
-    /**  background-color: #DFE6E7; **/
-}
-
-.follow a {
-    border: 2px solid #1da1f2;
-    padding: 2px;
-    background: #1da1f2;
-    color: white;
-    border-radius: 3px;
     display: inline-block;
-    margin: 2px auto;
-    width: 100px;
-    text-align: center;
 }
 
-.follow a:hover {
-    color: #1da1f2;
-    background: #f7f7f7;
-    border: 2px solid #1da1f2;
-    padding: 2px;
-    margin: 2px auto;
+a {
+    color: inherit;
+    font-style: inherit;
 }
 
 .footer {
-    border-top: 2px solid #FDCA40;
+    border-top: 1px solid #90C6FF;
     border-radius: 5px;
-    background: #31393C;
-    width: 100%;
-    margin: auto;
-    padding: 5px;
-    align-content: center;
-}
-
-.follow {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #90C6FF;
     text-align: center;
-    color: #FDCA40;
-    font-weight: bolder;
-    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #31393C;
 }
 
 /*********************************************************************
