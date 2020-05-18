@@ -10,12 +10,10 @@ You will find this is far easier than the opposite task of using CSS to cram you
  LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
 *********************************************************************/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
-
-
 /**************************************
   GOOGLE FONTS
 ****************************************/
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 /*********************************************************************
   YOUR MOBILE/BASE STYLES GO HERE
@@ -29,12 +27,44 @@ html, body {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     background-color: #F8FFFF;
+    line-height: 2;
+}
+
+.headline-box {
+    background: #31393C;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 4px solid #F79824;
+}
+
+.headline {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #F79824;
+    font-size: 42px;
+    text-align: left;
+}
+
+.byline {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #F8FFFF;
+    font-size: 18px;
+    text-align: left;
+}
+
+.date {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #F8FFFF;
+    font-size: 16px;
 }
 
 .container {
     max-width: 800px;
-    margin   : 0 auto;
-    padding  : 5px;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 H1 {
@@ -42,23 +72,61 @@ H1 {
 }
 
 H2 {
-  color: #33A1FD;
+    color: #33A1FD;
 }
 
 H3 {
-  color: #F79824;
+    color: #F79824;
 }
 
 p {
-  color: #31393C;
+    color: #2B3235;
 }
 
 .inter-element {
-  margin: auto;
-  width: 95%;
-  padding: 16px 20px 8px;
-  border: 2px solid #FDCA40;
-  border-radius: 5px;
+    margin: auto;
+    width: 100%;
+    padding: 16px 20px 8px;
+    border: 2px solid #F79824;
+    border-radius: 5px;
+    /**  background-color: #DFE6E7; **/
+}
+
+.follow a {
+    border: 2px solid #1da1f2;
+    padding: 2px;
+    background: #1da1f2;
+    color: white;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 2px auto;
+    width: 100px;
+    text-align: center;
+}
+
+.follow a:hover {
+    color: #1da1f2;
+    background: #f7f7f7;
+    border: 2px solid #1da1f2;
+    padding: 2px;
+    margin: 2px auto;
+}
+
+.footer {
+    border-top: 2px solid #F79824;
+    border-radius: 5px;
+    background: #31393C;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    align-content: center;
+}
+
+.follow {
+    text-align: center;
+    color: #F79824;
+    font-weight: bolder;
+    padding: 10px;
 }
 
 /*********************************************************************

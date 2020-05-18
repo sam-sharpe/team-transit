@@ -35,13 +35,13 @@ html, body {
     width: 100%;
     margin: 0 auto;
     padding: 20px;
-    border-bottom: 4px solid #FDCA40;
+    border-bottom: 4px solid #33A1FD;
 }
 
 .headline {
     max-width: 800px;
     margin: 0 auto;
-    color: #FDCA40;
+    color: #33A1FD;
     font-size: 42px;
     text-align: left;
 }
@@ -87,7 +87,7 @@ p {
     margin: auto;
     width: 100%;
     padding: 16px 20px 8px;
-    border: 2px solid #FDCA40;
+    border: 2px solid #33A1FD;
     border-radius: 5px;
     /**  background-color: #DFE6E7; **/
 }
@@ -113,7 +113,7 @@ p {
 }
 
 .footer {
-    border-top: 2px solid #FDCA40;
+    border-top: 2px solid #33A1FD;
     border-radius: 5px;
     background: #31393C;
     width: 100%;
@@ -124,7 +124,7 @@ p {
 
 .follow {
     text-align: center;
-    color: #FDCA40;
+    color: #33A1FD;
     font-weight: bolder;
     padding: 10px;
 }
