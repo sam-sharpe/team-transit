@@ -103,6 +103,7 @@ p {
     border: 2px solid;
     border-radius: 5px;
     display: inline-block;
+    font-style: normal;
 }
 
 a {
