@@ -38,7 +38,6 @@ html, body {
     border-radius: 5px;
     background-color: #31393C;
     line-height: 1.5;
-    border-bottom: 1px solid #90C6FF;
 }
 
 .headline {
@@ -57,6 +56,7 @@ html, body {
 }
 
 .deck {
+    border-top: 1px solid #90C6FF;
     margin: 1.5 auto;
     max-width: 800px;
     color: #F8FFFF;
