@@ -28,6 +28,12 @@ html, body {
     line-height: 2;
 }
 
+img {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .headline-box {
     font-family: 'Open Sans', sans-serif;
     background: #31393C;
